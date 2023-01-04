@@ -42,8 +42,12 @@ Forked from [NJU-ProjectN_NVBoard](https://github.com/NJU-ProjectN/nvboard).
 ## 安装教程
 
 1. 将项目拷贝到本地，`git clone git@github.com:BJTU-NSCSCC-2023/NVBoard.git`
+
 2. 通过`apt-get install libsdl2-dev libsdl2-image-dev`安装SDL2和SDL2-image
-3. 把本项目的目录设置成环境变量`NVBOARD_HOME`
+
+3. 把本项目的目录设置成环境变量`NVBOARD_HOME`。
+
+   LYS注：我尝试过更改代码使得不设置环境变量也能正常运行，结果发现它的程序里写死需要这个环境变量。。。遂作罢。
 
 ## 示例
 
