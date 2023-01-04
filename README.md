@@ -4,6 +4,8 @@
 
 NVBoard(NJU Virtual Board)是基于SDL开发的虚拟FPGA开发板，可以在Verilator仿真环境中模拟FPGA，支持LED，七段数码管，开关，键盘和VGA。
 
+Forked from [NJU-ProjectN_NVBoard](https://github.com/NJU-ProjectN/nvboard).
+
 ## 项目文件说明
 
 ```
@@ -39,7 +41,7 @@ NVBoard(NJU Virtual Board)是基于SDL开发的虚拟FPGA开发板，可以在Ve
 
 ## 安装教程
 
-1. 将项目拷贝到本地，`git clone https://github.com/NJU-ProjectN/nvboard.git`
+1. 将项目拷贝到本地，`git clone git@github.com:BJTU-NSCSCC-2023/NVBoard.git`
 2. 通过`apt-get install libsdl2-dev libsdl2-image-dev`安装SDL2和SDL2-image
 3. 把本项目的目录设置成环境变量`NVBOARD_HOME`
 
