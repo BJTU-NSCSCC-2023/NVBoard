@@ -1,7 +1,7 @@
 #ifndef _VFPGA_AT_SCANCODE_H
 #define _VFPGA_AT_SCANCODE_H
 
-#include <macro.h>
+#include "macro.h"
 
 #define AT_SCANCODE_A	0x1C
 #define AT_SCANCODE_B	0x32

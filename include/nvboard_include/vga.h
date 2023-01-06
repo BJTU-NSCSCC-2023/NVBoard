@@ -1,8 +1,8 @@
 #ifndef _VFPGA_VGA_H
 #define _VFPGA_VGA_H
 
-#include <component.h>
-#include <constrs.h>
+#include "component.h"
+#include "constrs.h"
 #include <SDL2/SDL.h>
 
 #define VGA_DEFAULT_WIDTH  640

@@ -3,9 +3,9 @@
 
 #include <queue>
 #include <assert.h>
-#include <nvboard.h>
+#include "nvboard.h"
 #include <map>
-#include <at_scancode.h>
+#include "at_scancode.h"
 
 #define NOT_A_KEY -1
 #define CLK_NUM 10
