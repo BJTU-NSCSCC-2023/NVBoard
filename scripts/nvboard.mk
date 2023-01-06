@@ -1,7 +1,7 @@
 # files of NVBoard
 NVBOARD_SRC = $(NVBOARD_HOME)/src
 NVBOARD_SRCS := $(shell find $(NVBOARD_SRC) -name "*.cpp")
-NVBOARD_INC = $(NVBOARD_HOME)/include
+NVBOARD_INC = $(NVBOARD_HOME)/include/nvboard_include
 INC_PATH += $(NVBOARD_INC)
 
 NVBOARD_BUILD_DIR = $(NVBOARD_HOME)/build
