@@ -53,6 +53,9 @@ Forked from [NJU-ProjectN_NVBoard](https://github.com/NJU-ProjectN/nvboard).
 
 `example`目录下包含一个示例项目，在该目录下通过 `make run` 命令可运行该项目。
 
+在运行`make run` 命令时，可能遇到找不到nvboard.h头文件的报错，需要手动修改example/build文件夹下auto_bind.cpp文件的头文件路径。
+可将其修改为NVBoard/include/nvboard_include文件夹下nvboard.h文件的绝对路径。
+
 ## 接入verilator步骤
 
 ### API说明
